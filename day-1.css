@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:10px;
+    background-color: rgb(247, 247, 247);
+}
+.logo{
+    font-size:2em;  /* here em is nothing but 16px=1em*/
+    font-weight: 700;
+    color:rgba(243, 31, 31, 0.966);
+    
+}
+.nav{
+    font-size:1.5em;
+    text-decoration:none;
+    color:black;
+    cursor: pointer; /*used to change cursor*/
+}
+.nav:hover{
+    color:red;  /*it is used to make red in color when we go for option*/
+}
+.nav:active{
+    color:yellow;  /*this shows that when it is yellow it is active state else inactive*/
+}
+
+header div p{
+    font-size: 2em;
+    font-weight: 10;
+}
+h2,h3,h4{
+   font-weight:800; 
+}
+h2{
+    font-size:2.5em;
+}
+h3{
+    font-size:2em;
+    font-weight: 200;
+}
+.link-button{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    background-color: rgb(255, 22, 22);
+    letter-spacing:1.3px ;  /*used for spacing letters in between*/
+    font-size: 1.5em;
+}
+.link-button:hover{
+    color:white;
+}
+#bio img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#bio p{
+    font-size: 1.5em;
+    font-weight: 100;
+
+}
+
+#bio article{
+    padding-top: -50px;
+    padding-left:700px ;
+}
+
+#home div{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 100px;
+}
+
+#portfolio{
+    background: url(https://i1.faceprep.in/ProGrad/portfolio-background.svg);
+    background-color: black;
+    color:white;
+}
